@@ -741,7 +741,7 @@ input[type="checkbox"]:checked + .privacy-label .checkbox-icon {
 .submit-btn:hover {
     background-color: #3C47C7;
 }
-.submti-button {
+.submit-button {
     display: block;
     min-width: 169px;
      height: 56px; 

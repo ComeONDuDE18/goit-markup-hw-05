@@ -506,7 +506,7 @@
             </div>
           </footer>
         
-        <div class="modal-overlay">
+          <div class="modal-overlay">
             <div class="modal">
                 <button type="button" class="modal-close">
                     <svg width="8" height="8" class="modal-close-icon">
@@ -546,39 +546,27 @@
                         <label for="user-comment" class="form-label">Comment</label>
                         <textarea id="user-comment" name="user-comment" placeholder="Text input" class="form-textarea"></textarea>
                     </div>
-                </form>
-            </div> 
-            <form> 
-                <div> 
-                    <input
-                        id="user-privacy" 
-                        type="checkbox" 
-                        value="true" 
-                        name="user-privacy" 
-                        class="visually-hidden"
-                    >
-                    <label for="user-privacy" class="privacy-label" style="font-size: 12px; line-height: 1.17; letter-spacing: 0.04em; color: #8e8f99;">
-                        <span class="checkbox-icon" 
-                              style="width: 16px; height: 16px; border: 1px solid rgba(46, 47, 66, 0.4); border-radius: 2px; transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1); display: inline-flex; align-items: center; justify-content: center; fill: transparent;">
-                            <svg width="10" height="8" class="checkbox-icon-svg">
-                                <use href="./images/icons.svg#icon-Vector"></use>
-                            </svg>
-                        </span>
-                        I accept the terms and conditions of the 
-                        <a href="#" class="privacy-policy-link" style="color: #4d5ae5;">Privacy Policy</a>.
-                    </label>
-                </div>
-            </form>
-                <form> 
                     <div class="checkbox-container">
-                <button class="submit-button" 
-                        style="display: block; min-width: 169px; height: 56px; font-family: 'Roboto', sans-serif; font-size: 16px; font-weight: 500; line-height: 1.5; letter-spacing: 0.04em; color: #ffffff; cursor: pointer; background-color: #4D5AE5; border: none; transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);">
-                    Send
-            </button>
+                        <input
+                            id="user-privacy" 
+                            type="checkbox" 
+                            value="true" 
+                            name="user-privacy" 
+                            class="visually-hidden"
+                        >
+                        <label for="user-privacy" class="privacy-label">
+                            <span class="checkbox-icon">
+                                <svg width="10" height="8" class="checkbox-icon-svg">
+                                    <use href="./images/icons.svg#icon-Vector"></use>
+                                </svg>
+                            </span>
+                            I accept the terms and conditions of the 
+                            <a href="#" class="privacy-policy-link">Privacy Policy</a>.
+                        </label>
                     </div>
-            </form>
+                    <button class="submit-button">Send</button>
+                </form>
+            </div>
         </div>
-    </form>
-        
 </body>
 </html>
