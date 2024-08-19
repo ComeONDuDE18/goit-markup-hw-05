@@ -764,3 +764,8 @@ input[type="checkbox"]:checked + .privacy-label .checkbox-icon {
     color: #4d5ae5;
 }
     
+.modal-overlay.is-open {
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+}
